@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@3.10.2/dist/fullcalendar.min.css" integrity="sha256-q/0M61iUw5xM+u5Z4hPaQz7ddQpDLlKSLdZlEfxv4w8=" crossorigin="anonymous">
+    <title>Period Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Period Tracker</h1>
+        <div class="date-picker">
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date" required>
+        </div>
+        <button onclick="trackPeriod()">Track Period</button>
+        <div id="result"></div>
+        <div id="calendar"></div>
+        <div id="tips-container" class="tips-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

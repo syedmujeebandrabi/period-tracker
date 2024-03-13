@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('images/iStock-1171694051.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to make text more readable */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Set a maximum width for larger screens */
+    width: 90%; /* Set a percentage width for smaller screens */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.tips-container {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.date-picker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Customize the appearance of the date picker */
+input[type="date"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    background-color: #f8f8f8; /* Change background color */
+    color: #333; /* Change text color */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Add hover effect to date picker */
+input[type="date"]:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+}
